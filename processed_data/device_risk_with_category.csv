@@ -1,0 +1,51 @@
+employee_id,device_id,os,compliant,risk_score,employee_name,department,risk_category
+EMP001,LAPTOP--001,Linux,False,47,Employee 1,IT,Low
+EMP002,LAPTOP--002,Windows 11,False,95,Employee 2,Finance,High
+EMP003,LAPTOP--003,Windows 11,True,63,Employee 3,Legal,Medium
+EMP004,LAPTOP--004,Linux,True,58,Employee 4,Sales,Medium
+EMP005,LAPTOP--005,Linux,False,4,Employee 5,Sales,Low
+EMP006,LAPTOP--006,Windows 11,False,20,Employee 6,Finance,Low
+EMP007,LAPTOP--007,macOS,False,85,Employee 7,Finance,High
+EMP008,LAPTOP--008,Windows 11,False,93,Employee 8,HR,High
+EMP009,LAPTOP--009,Linux,False,62,Employee 9,Legal,Medium
+EMP010,LAPTOP--010,Windows 10,False,53,Employee 10,Finance,Medium
+EMP011,LAPTOP--011,Windows 11,True,60,Employee 11,Legal,Medium
+EMP012,LAPTOP--012,Windows 10,True,77,Employee 12,Engineering,Medium
+EMP013,LAPTOP--013,macOS,False,23,Employee 13,Engineering,Low
+EMP014,LAPTOP--014,Windows 11,True,53,Employee 14,HR,Medium
+EMP015,LAPTOP--015,Windows 11,True,86,Employee 15,Engineering,High
+EMP016,LAPTOP--016,Linux,False,20,Employee 16,Sales,Low
+EMP017,LAPTOP--017,macOS,True,81,Employee 17,Sales,High
+EMP018,LAPTOP--018,Windows 10,False,77,Employee 18,HR,Medium
+EMP019,LAPTOP--019,Linux,True,58,Employee 19,Finance,Medium
+EMP020,LAPTOP--020,Windows 11,True,18,Employee 20,HR,Low
+EMP021,LAPTOP--021,Linux,False,69,Employee 21,Finance,Medium
+EMP022,LAPTOP--022,Windows 11,True,62,Employee 22,Finance,Medium
+EMP023,LAPTOP--023,Windows 10,False,12,Employee 23,IT,Low
+EMP024,LAPTOP--024,macOS,True,7,Employee 24,HR,Low
+EMP025,LAPTOP--025,macOS,True,50,Employee 25,Engineering,Medium
+EMP026,LAPTOP--026,Windows 10,False,27,Employee 26,Legal,Low
+EMP027,LAPTOP--027,Windows 10,True,38,Employee 27,HR,Low
+EMP028,LAPTOP--028,macOS,True,49,Employee 28,Legal,Low
+EMP029,LAPTOP--029,Linux,False,72,Employee 29,Finance,Medium
+EMP030,LAPTOP--030,Windows 11,True,5,Employee 30,Engineering,Low
+EMP031,LAPTOP--031,Windows 10,False,83,Employee 31,Finance,High
+EMP032,LAPTOP--032,macOS,False,40,Employee 32,HR,Low
+EMP033,LAPTOP--033,Linux,False,76,Employee 33,Sales,Medium
+EMP034,LAPTOP--034,Windows 10,False,24,Employee 34,HR,Low
+EMP035,LAPTOP--035,Linux,True,44,Employee 35,IT,Low
+EMP036,LAPTOP--036,Linux,False,1,Employee 36,Finance,Low
+EMP037,LAPTOP--037,macOS,False,11,Employee 37,Legal,Low
+EMP038,LAPTOP--038,macOS,False,45,Employee 38,Engineering,Low
+EMP039,LAPTOP--039,Linux,False,82,Employee 39,Legal,High
+EMP040,LAPTOP--040,Windows 10,False,94,Employee 40,Sales,High
+EMP041,LAPTOP--041,Linux,False,45,Employee 41,IT,Low
+EMP042,LAPTOP--042,Windows 11,True,99,Employee 42,IT,High
+EMP043,LAPTOP--043,Windows 11,True,73,Employee 43,IT,Medium
+EMP044,LAPTOP--044,Linux,True,70,Employee 44,Engineering,Medium
+EMP045,LAPTOP--045,Windows 10,True,29,Employee 45,HR,Low
+EMP046,LAPTOP--046,Windows 11,False,95,Employee 46,Finance,High
+EMP047,LAPTOP--047,Linux,False,85,Employee 47,HR,High
+EMP048,LAPTOP--048,macOS,False,77,Employee 48,Sales,Medium
+EMP049,LAPTOP--049,Windows 11,True,6,Employee 49,Finance,Low
+EMP050,LAPTOP--050,macOS,False,65,Employee 50,HR,Medium

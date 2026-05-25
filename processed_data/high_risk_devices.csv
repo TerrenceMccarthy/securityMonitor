@@ -1,0 +1,12 @@
+employee_id,device_id,os,compliant,risk_score,employee_name,department
+EMP002,LAPTOP--002,Windows 11,False,95,Employee 2,Finance
+EMP007,LAPTOP--007,macOS,False,85,Employee 7,Finance
+EMP008,LAPTOP--008,Windows 11,False,93,Employee 8,HR
+EMP015,LAPTOP--015,Windows 11,True,86,Employee 15,Engineering
+EMP017,LAPTOP--017,macOS,True,81,Employee 17,Sales
+EMP031,LAPTOP--031,Windows 10,False,83,Employee 31,Finance
+EMP039,LAPTOP--039,Linux,False,82,Employee 39,Legal
+EMP040,LAPTOP--040,Windows 10,False,94,Employee 40,Sales
+EMP042,LAPTOP--042,Windows 11,True,99,Employee 42,IT
+EMP046,LAPTOP--046,Windows 11,False,95,Employee 46,Finance
+EMP047,LAPTOP--047,Linux,False,85,Employee 47,HR
