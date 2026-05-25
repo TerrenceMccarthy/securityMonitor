@@ -1,0 +1,7 @@
+Power BI files will go here.
+
+Main datasets:
+- processed_data/device_risk_with_category.csv
+- processed_data/department_risk_summary.csv
+- processed_data/failed_login_summary.csv
+- processed_data/high_risk_devices.csv

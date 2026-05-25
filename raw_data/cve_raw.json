@@ -1,0 +1,2888 @@
+{
+    "resultsPerPage": 25,
+    "startIndex": 0,
+    "totalResults": 2439,
+    "format": "NVD_CVE",
+    "version": "2.0",
+    "timestamp": "2026-05-25T05:56:41.360",
+    "vulnerabilities": [
+        {
+            "cve": {
+                "id": "CVE-1999-0012",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "1998-02-06T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Some web servers under Microsoft Windows allow remote attackers to bypass access restrictions for files with long file names."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV31": [
+                        {
+                            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                            "type": "Secondary",
+                            "cvssData": {
+                                "version": "3.1",
+                                "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:L",
+                                "baseScore": 7.0,
+                                "baseSeverity": "HIGH",
+                                "attackVector": "NETWORK",
+                                "attackComplexity": "HIGH",
+                                "privilegesRequired": "NONE",
+                                "userInteraction": "NONE",
+                                "scope": "UNCHANGED",
+                                "confidentialityImpact": "LOW",
+                                "integrityImpact": "HIGH",
+                                "availabilityImpact": "LOW"
+                            },
+                            "exploitabilityScore": 2.2,
+                            "impactScore": 4.7
+                        }
+                    ],
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "NONE"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    },
+                    {
+                        "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+                        "type": "Secondary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-290"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:frontpage:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "0951E183-2BFE-4B19-9F06-107B5E22DBC5"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:internet_information_server:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "5D47E9C4-5439-4A82-BBD8-D6B482B47E51"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:personal_web_server:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "9E075F89-BC5D-48D8-8CA1-B56C2CAD50F6"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:netscape:enterprise_server:3.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "7A7B9FDA-DC62-4EC9-9120-A7E6795C2815"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:netscape:fasttrack_server:2.01:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "4F156CEA-E3F2-4F2E-8065-FC606DD58F87"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:netscape:fasttrack_server:3.01:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "63A12C94-E68C-48E2-B88E-571C4FD9099C"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0012",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0012",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-1999-0288",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "1998-08-01T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "The WINS server in Microsoft Windows NT 4.0 before SP4 allows remote attackers to cause a denial of service (process termination) via invalid UDP frames to port 137 (NETBIOS Name Service), as demonstrated via a flood of random packets."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E53CDA8E-50A8-4509-B070-CCA5604FFB21"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:sp1:*:*:*:*:*:*",
+                                        "matchCriteriaId": "5BDCBCB8-DAA3-465F-ADDE-9143B8251989"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:sp2:*:*:*:*:*:*",
+                                        "matchCriteriaId": "B86E0671-ED68-4549-B3AC-FD8BD79B0860"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:sp3:*:*:*:*:*:*",
+                                        "matchCriteriaId": "BB76E7EC-C396-4537-9065-4E815DA7097C"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://safenetworks.com/Windows/wins.html",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/1233",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://safenetworks.com/Windows/wins.html",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/1233",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-1999-1291",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "1998-10-05T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "TCP/IP implementation in Microsoft Windows 95, Windows NT 4.0, and possibly others, allows remote attackers to reset connections by forcing a reset (RST) via a PSH ACK or other means, obtaining the target's last sequence number from the resulting packet, then spoofing a reset to the target."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_95:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "82F7322B-8022-4D0B-ADB3-D0F5B6F20309"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E53CDA8E-50A8-4509-B070-CCA5604FFB21"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/archive/1/10789",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/1383",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/archive/1/10789",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/1383",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-1999-0386",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "1999-03-01T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft Personal Web Server and FrontPage Personal Web Server in some Windows systems allows a remote attacker to read files on the server by using a nonstandard URL."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "NONE"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:frontpage:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "0951E183-2BFE-4B19-9F06-107B5E22DBC5"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:personal_web_server:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "9E075F89-BC5D-48D8-8CA1-B56C2CAD50F6"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.osvdb.org/111",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-010",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.osvdb.org/111",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-010",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-1999-0749",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "1999-08-16T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Buffer overflow in Microsoft Telnet client in Windows 95 and Windows 98 via a malformed Telnet argument."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:H/Au:N/C:N/I:P/A:N",
+                                "baseScore": 2.6,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "HIGH",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "PARTIAL",
+                                "availabilityImpact": "NONE"
+                            },
+                            "baseSeverity": "LOW",
+                            "exploitabilityScore": 4.9,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": true
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_95:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "82F7322B-8022-4D0B-ADB3-D0F5B6F20309"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_98:*:gold:*:*:*:*:*:*",
+                                        "matchCriteriaId": "2D3B703C-79B2-4FA2-9E12-713AB977A880"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/586",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-033",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/586",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/1999/ms99-033",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0089",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-02-04T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "The rdisk utility in Microsoft Terminal Server Edition and Windows NT 4.0 stores registry hive information in a temporary file with permissions that allow local users to read it, aka the \"RDISK Registry Enumeration File\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+                                "baseScore": 2.1,
+                                "accessVector": "LOCAL",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "NONE"
+                            },
+                            "baseSeverity": "LOW",
+                            "exploitabilityScore": 3.9,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E53CDA8E-50A8-4509-B070-CCA5604FFB21"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:server:*:*:*:*:*",
+                                        "matchCriteriaId": "7C5FCE82-1E2F-49B9-B504-8C03F2BCF296"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:terminal_server:*:*:*:*:*",
+                                        "matchCriteriaId": "6E7E6AD3-5418-4FEA-84B5-833059CA880D"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:sp1:enterprise:*:*:*:*:*",
+                                        "matchCriteriaId": "BBD9C514-5AF7-4849-A535-F0F3C9339051"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ249108",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/947",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-004",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ249108",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/947",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-004",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0216",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-02-29T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft email clients in Outlook, Exchange, and Windows Messaging automatically respond to Read Receipt and Delivery Receipt tags, which could allow an attacker to flood a mail system with responses by forging a Read Receipt request that is redirected to a large distribution list."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:exchange_server:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "261FB692-DD0F-494F-A25A-AFCC00BE4585"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:outlook:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "91EB05F7-D88A-40AA-A8CB-F76C449878AA"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_messaging:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "06BBAE78-16A5-47EC-B5DD-3D01025D2F2D"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://archives.neohapsis.com/archives/ntbugtraq/2000-q1/0176.html",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://archives.neohapsis.com/archives/ntbugtraq/2000-q1/0176.html",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Vendor Advisory"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0168",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-03-04T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft Windows 9x operating systems allow an attacker to cause a denial of service via a pathname that includes file device names, aka the \"DOS Device in Path Name\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_95:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "82F7322B-8022-4D0B-ADB3-D0F5B6F20309"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_98:*:gold:*:*:*:*:*:*",
+                                        "matchCriteriaId": "2D3B703C-79B2-4FA2-9E12-713AB977A880"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_98se:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "AA733AD2-D948-46A0-A063-D29081A56F1F"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/1043",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/templates/advisory.html?id=2126",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=NCBBKFKDOLAGKIAPMILPCENECCAA.labs%40ussrback.com",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1043",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/templates/advisory.html?id=2126",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=NCBBKFKDOLAGKIAPMILPCENECCAA.labs%40ussrback.com",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0228",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-03-17T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft Windows Media License Manager allows remote attackers to cause a denial of service by sending a malformed request that causes the manager to halt, aka the \"Malformed Media License Request\" Vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_rights_manager:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "8561A9DF-D3BB-4287-9374-83B09F0CA4C7"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_rights_manager:4.1:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "FCAF8A5D-A9E3-4E95-BB93-A10C626A314B"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/1058",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-016",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1058",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-016",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-1218",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-04-14T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "The default configuration for the domain name resolver for Microsoft Windows 98, NT 4.0, 2000, and XP sets the QueryIpMatching parameter to 0, which causes Windows to accept DNS updates from hosts that it did not query, which allows remote attackers to poison the DNS cache."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV31": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "3.1",
+                                "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                                "baseScore": 9.8,
+                                "baseSeverity": "CRITICAL",
+                                "attackVector": "NETWORK",
+                                "attackComplexity": "LOW",
+                                "privilegesRequired": "NONE",
+                                "userInteraction": "NONE",
+                                "scope": "UNCHANGED",
+                                "confidentialityImpact": "HIGH",
+                                "integrityImpact": "HIGH",
+                                "availabilityImpact": "HIGH"
+                            },
+                            "exploitabilityScore": 3.9,
+                            "impactScore": 5.9
+                        }
+                    ],
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                                "baseScore": 7.5,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "PARTIAL",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "HIGH",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 6.4,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "CWE-346"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_2000:-:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "685F1981-EA61-4A00-89F8-A748A88962F8"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_98:-:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "40FC681A-7B85-4495-8DCC-C459FE7E2F13"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_98se:-:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "A2354216-8103-49F9-A95C-7DE4F738BBEE"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E53CDA8E-50A8-4509-B070-CCA5604FFB21"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_xp:-:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "B47EBFCC-1828-45AB-BC6D-FB980929A81A"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.kb.cert.org/vuls/id/458659",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Third Party Advisory",
+                            "US Government Resource"
+                        ]
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/4280",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Third Party Advisory",
+                            "VDB Entry"
+                        ]
+                    },
+                    {
+                        "url": "http://www.kb.cert.org/vuls/id/458659",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Third Party Advisory",
+                            "US Government Resource"
+                        ]
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/4280",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Third Party Advisory",
+                            "VDB Entry"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0331",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-04-20T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Buffer overflow in Microsoft command processor (CMD.EXE) for Windows NT and Windows 2000 allows a local user to cause a denial of service via a long environment variable, aka the \"Malformed Environment Variable\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:terminal_server:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "40242161-D5AD-4314-AB95-E61292C49DF2"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_2000:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "4E545C63-FE9C-4CA1-AF0F-D999D84D2AFD"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E53CDA8E-50A8-4509-B070-CCA5604FFB21"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://archives.neohapsis.com/archives/bugtraq/2000-04/0147.html",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1135",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-027",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://archives.neohapsis.com/archives/bugtraq/2000-04/0147.html",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1135",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-027",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0495",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-05-30T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft Windows Media Encoder allows remote attackers to cause a denial of service via a malformed request, aka the \"Malformed Windows Media Encoder Request\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_services:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "D073958F-0428-4E15-97B0-8EDAD0E80632"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_services:4.1:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "AA3DDE73-E623-45A3-AA49-17BAFB89A2CC"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/1282",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-038",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/4585",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1282",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-038",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/4585",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0653",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-07-20T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft Outlook Express allows remote attackers to monitor a user's email by creating a persistent browser link to the Outlook Express windows, aka the \"Persistent Mail-Browser Link\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "NONE"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:outlook_express:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "6764F97F-6906-4953-BB1C-AA6345FA8FBE"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:outlook_express:4.01:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "BA267F42-5A1F-4663-9D4D-AF5DD64FD2DF"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:outlook_express:5.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "1F71D6D7-6CB2-4BE9-839A-A5714144029C"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:outlook_express:5.0.1:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "A72832FD-812D-4175-AA50-DC1DDAD5B954"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/1502",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-045",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1502",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-045",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-1079",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-08-29T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Interactions between the CIFS Browser Protocol and NetBIOS as implemented in Microsoft Windows 95, 98, NT, and 2000 allow remote attackers to modify dynamic NetBIOS name cache entries via a spoofed Browse Frame Request in a unicast or UDP broadcast datagram."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                                "baseScore": 7.5,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "PARTIAL",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "HIGH",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 6.4,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": true,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_2000:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "4E545C63-FE9C-4CA1-AF0F-D999D84D2AFD"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_95:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "82F7322B-8022-4D0B-ADB3-D0F5B6F20309"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_98:*:gold:*:*:*:*:*:*",
+                                        "matchCriteriaId": "2D3B703C-79B2-4FA2-9E12-713AB977A880"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E53CDA8E-50A8-4509-B070-CCA5604FFB21"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://archives.neohapsis.com/archives/ntbugtraq/2000-q3/0116.html",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.nai.com/research/covert/advisories/045.asp",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1620",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5168",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1079",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://archives.neohapsis.com/archives/ntbugtraq/2000-q3/0116.html",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "http://www.nai.com/research/covert/advisories/045.asp",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1620",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5168",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A1079",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0742",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-10-20T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "The IPX protocol implementation in Microsoft Windows 95 and 98 allows remote attackers to cause a denial of service by sending a ping packet with a source IP address that is a broadcast address, aka the \"Malformed IPX Ping Packet\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_95:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "82F7322B-8022-4D0B-ADB3-D0F5B6F20309"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_98:*:gold:*:*:*:*:*:*",
+                                        "matchCriteriaId": "2D3B703C-79B2-4FA2-9E12-713AB977A880"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/1544",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/templates/archive.pike?list=1&mid=63120",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-054",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5079",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1544",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/templates/archive.pike?list=1&mid=63120",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-054",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5079",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0771",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-10-20T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft Windows 2000 allows local users to cause a denial of service by corrupting the local security policy via malformed RPC traffic, aka the \"Local Security Policy Corruption\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 2.1,
+                                "accessVector": "LOCAL",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "LOW",
+                            "exploitabilityScore": 3.9,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_2000:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "4E545C63-FE9C-4CA1-AF0F-D999D84D2AFD"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/1613",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-062",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1613",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-062",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0790",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-10-20T04:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "The web-based folder display capability in Microsoft Internet Explorer 5.5 on Windows 98 allows local users to insert Trojan horse programs by modifying the Folder.htt file and using the InvokeVerb method in the ShellDefView ActiveX control to specify a default execute option for the first file that is listed in the folder."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+                                "baseScore": 4.6,
+                                "accessVector": "LOCAL",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "PARTIAL",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 3.9,
+                            "impactScore": 6.4,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": true,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_2000:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "4E545C63-FE9C-4CA1-AF0F-D999D84D2AFD"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_98:*:gold:*:*:*:*:*:*",
+                                        "matchCriteriaId": "2D3B703C-79B2-4FA2-9E12-713AB977A880"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_98se:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "AA733AD2-D948-46A0-A063-D29081A56F1F"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/1571",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=3998370D.732A03F1%40nat.bg",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5097",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1571",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=3998370D.732A03F1%40nat.bg",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5097",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0849",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-11-14T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Race condition in Microsoft Windows Media server allows remote attackers to cause a denial of service in the Windows Media Unicast Service via a malformed request, aka the \"Unicast Service Race Condition\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:H/Au:N/C:N/I:N/A:P",
+                                "baseScore": 2.6,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "HIGH",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "LOW",
+                            "exploitabilityScore": 4.9,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_services:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "D073958F-0428-4E15-97B0-8EDAD0E80632"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_services:4.1:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "AA3DDE73-E623-45A3-AA49-17BAFB89A2CC"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/1655",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-064",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5193",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1655",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-064",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5193",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0858",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-11-14T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Vulnerability in Microsoft Windows NT 4.0 allows remote attackers to cause a denial of service in IIS by sending it a series of malformed requests which cause INETINFO.EXE to fail, aka the \"Invalid URL\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:internet_information_server:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "5D47E9C4-5439-4A82-BBD8-D6B482B47E51"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E53CDA8E-50A8-4509-B070-CCA5604FFB21"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://archives.neohapsis.com/archives/vendor/2000-q3/0065.html",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/archive/1/80413",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1642",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5202",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://archives.neohapsis.com/archives/vendor/2000-q3/0065.html",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/archive/1/80413",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1642",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5202",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-1217",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-11-21T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft Windows 2000 before Service Pack 2 (SP2), when running in a non-Windows 2000 domain and using NTLM authentication, and when credentials of an account are locally cached, allows local users to bypass account lockout policies and make an unlimited number of login attempts, aka the \"Domain Account Lockout\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+                                "baseScore": 4.6,
+                                "accessVector": "LOCAL",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "PARTIAL",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 3.9,
+                            "impactScore": 6.4,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_2000:*:sp1:*:*:*:*:*:*",
+                                        "matchCriteriaId": "294EBA01-147B-4DA0-937E-ACBB655EDE53"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.kb.cert.org/vuls/id/818496",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "US Government Resource"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1973",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-089",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5585",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.kb.cert.org/vuls/id/818496",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "US Government Resource"
+                        ]
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1973",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-089",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5585",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0929",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-12-19T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft Windows Media Player 7 allows attackers to cause a denial of service in RTF-enabled email clients via an embedded OCX control that is not closed properly, aka the \"OCX Attachment\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "NONE",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_player:7:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E5C9557F-DCBF-48BA-9045-AA5DF58F604A"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://marc.info/?l=bugtraq&m=97024839222747&w=2",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1714",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Exploit",
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-068",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5309",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://marc.info/?l=bugtraq&m=97024839222747&w=2",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1714",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Exploit",
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-068",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5309",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-0942",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2000-12-19T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "The CiWebHitsFile component in Microsoft Indexing Services for Windows 2000 allows remote attackers to conduct a cross site scripting (CSS) attack via a CiRestriction parameter in a .htw request, aka the \"Indexing Services Cross Site Scripting\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+                                "baseScore": 5.1,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "HIGH",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "PARTIAL",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 4.9,
+                            "impactScore": 6.4,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": true,
+                            "userInteractionRequired": true
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:indexing_service:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E8D01793-B14A-4A3E-868F-8F9C74AB7482"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/archive/1/141903",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1861",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Exploit",
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-084",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5441",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/archive/1/141903",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1861",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Exploit",
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-084",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5441",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-1112",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2001-01-09T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Microsoft Windows Media Player 7 executes scripts in custom skin (.WMS) files, which could allow remote attackers to gain privileges via a skin that contains a malicious script, aka the \".WMS Script Execution\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+                                "baseScore": 4.6,
+                                "accessVector": "LOCAL",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "PARTIAL",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 3.9,
+                            "impactScore": 6.4,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": true,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_player:6.4:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "1CE4EC55-63B7-409E-9E4D-DBC5A36D2F5A"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_player:7:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E5C9557F-DCBF-48BA-9045-AA5DF58F604A"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/1976",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Exploit",
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-090",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5575",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1976",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Exploit",
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-090",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5575",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2000-1113",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2001-01-09T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Buffer overflow in Microsoft Windows Media Player allows remote attackers to execute arbitrary commands via a malformed Active Stream Redirector (.ASX) file, aka the \".ASX Buffer Overrun\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+                                "baseScore": 7.5,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "PARTIAL",
+                                "availabilityImpact": "PARTIAL"
+                            },
+                            "baseSeverity": "HIGH",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 6.4,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": true,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_player:6.4:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "1CE4EC55-63B7-409E-9E4D-DBC5A36D2F5A"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:windows_media_player:7:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "E5C9557F-DCBF-48BA-9045-AA5DF58F604A"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.atstake.com/research/advisories/2000/a112300-1.txt",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1980",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Exploit",
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-090",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5574",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.atstake.com/research/advisories/2000/a112300-1.txt",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/1980",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Exploit",
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-090",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5574",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        },
+        {
+            "cve": {
+                "id": "CVE-2001-0003",
+                "sourceIdentifier": "cve@mitre.org",
+                "published": "2001-02-12T05:00:00.000",
+                "lastModified": "2026-04-16T00:27:16.627",
+                "vulnStatus": "Modified",
+                "cveTags": [],
+                "descriptions": [
+                    {
+                        "lang": "en",
+                        "value": "Web Extender Client (WEC) in Microsoft Office 2000, Windows 2000, and Windows Me does not properly process Internet Explorer security settings for NTLM authentication, which allows attackers to obtain NTLM credentials and possibly obtain the password, aka the \"Web Client NTLM Authentication\" vulnerability."
+                    }
+                ],
+                "metrics": {
+                    "cvssMetricV2": [
+                        {
+                            "source": "nvd@nist.gov",
+                            "type": "Primary",
+                            "cvssData": {
+                                "version": "2.0",
+                                "vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+                                "baseScore": 5.0,
+                                "accessVector": "NETWORK",
+                                "accessComplexity": "LOW",
+                                "authentication": "NONE",
+                                "confidentialityImpact": "PARTIAL",
+                                "integrityImpact": "NONE",
+                                "availabilityImpact": "NONE"
+                            },
+                            "baseSeverity": "MEDIUM",
+                            "exploitabilityScore": 10.0,
+                            "impactScore": 2.9,
+                            "acInsufInfo": false,
+                            "obtainAllPrivilege": false,
+                            "obtainUserPrivilege": false,
+                            "obtainOtherPrivilege": false,
+                            "userInteractionRequired": false
+                        }
+                    ]
+                },
+                "weaknesses": [
+                    {
+                        "source": "nvd@nist.gov",
+                        "type": "Primary",
+                        "description": [
+                            {
+                                "lang": "en",
+                                "value": "NVD-CWE-Other"
+                            }
+                        ]
+                    }
+                ],
+                "configurations": [
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:a:microsoft:office:2000:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "A9A82D13-513C-46FA-AF51-0582233E230A"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "nodes": [
+                            {
+                                "operator": "OR",
+                                "negate": false,
+                                "cpeMatch": [
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_2000:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "4E545C63-FE9C-4CA1-AF0F-D999D84D2AFD"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_me:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "799DA395-C7F8-477C-8BC7-5B4B88FB7503"
+                                    },
+                                    {
+                                        "vulnerable": true,
+                                        "criteria": "cpe:2.3:o:microsoft:windows_nt:*:*:*:*:*:*:*:*",
+                                        "matchCriteriaId": "ED27882B-A02A-4D5F-9117-A47976C676E0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "references": [
+                    {
+                        "url": "http://www.securityfocus.com/bid/2199",
+                        "source": "cve@mitre.org",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-001",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5920",
+                        "source": "cve@mitre.org"
+                    },
+                    {
+                        "url": "http://www.securityfocus.com/bid/2199",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108",
+                        "tags": [
+                            "Patch",
+                            "Vendor Advisory"
+                        ]
+                    },
+                    {
+                        "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/ms01-001",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    },
+                    {
+                        "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5920",
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+                    }
+                ]
+            }
+        }
+    ]
+}
