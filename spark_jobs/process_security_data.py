@@ -15,6 +15,7 @@ spark = SparkSession.builder \
 employees_df = spark.read.csv("raw_data/employees.csv", header=True, inferSchema=True)
 devices_df = spark.read.csv("raw_data/devices.csv", header=True, inferSchema=True)
 events_df = spark.read.csv("raw_data/security_events.csv", header=True, inferSchema=True)
+cve_df = spark.read.csv("raw_data/cve_vulnerabilities.csv", header=True, inferSchema=True)
 
 # join devices with employees
 device_employee_df = devices_df.join(employees_df, on="employee_id", how="inner")
@@ -41,6 +42,13 @@ device_risk_with_category = device_employee_df.withColumn(
     .otherwise("Low")
 )
 
+cve_severity_summary = cve_df.groupBy(
+    "severity"
+).agg(
+    count("cve_id").alias("total_vulnerabilities"),
+    avg("base_score").alias("average_base_score")
+)
+
 # save processed datasets
 # Convert Spark DataFrames to pandas and save as CSV files
 
@@ -61,6 +69,11 @@ failed_login_summary.toPandas().to_csv(
 
 device_risk_with_category.toPandas().to_csv(
     "processed_data/device_risk_with_category.csv",
+    index=False
+)
+
+cve_severity_summary.toPandas().to_csv(
+    "processed_data/cve_severity_summary.csv",
     index=False
 )
 
